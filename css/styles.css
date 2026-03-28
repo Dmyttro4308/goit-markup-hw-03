@@ -68,7 +68,9 @@ button {
 }
 
 .header {
-  padding-block: 24px;
+  border-bottom: 1px solid #e7e9fc;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .header-container {
@@ -180,7 +182,7 @@ button {
 }
 
 .features {
-  padding-block: 123px;
+  padding-block: 120px;
 }
 
 .visually-hidden {
@@ -238,19 +240,22 @@ button {
   background: #fff;
   width: calc((100% - 24px * 3) / 4);
   margin-top: 72px;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-image {
+  display: block;
+}
+
+.team-text-container {
 }
 
 .team-subtitle {
   text-align: center;
-  margin-top: 32px;
 }
 
 .team-text {
   text-align: center;
-  margin-bottom: 32px;
 }
 
 .portfolio {
@@ -277,6 +282,7 @@ button {
 }
 
 .portfolio-image {
+  display: block;
 }
 
 .portfolio-subtitle {
