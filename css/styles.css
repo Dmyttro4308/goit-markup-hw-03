@@ -38,7 +38,7 @@ button {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -73,7 +73,7 @@ button {
 
 .header-container {
   display: flex;
-  padding-block: 24px;
+  align-items: center;
 }
 
 .header-logo {
@@ -110,6 +110,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
+  padding: 24px 0;
 }
 
 .header-link:hover,
@@ -135,6 +137,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding: 24px 0;
 }
 
 .header-contacts-link:hover,
