@@ -175,6 +175,8 @@ button {
   margin: 0 auto;
   padding: 16px 32px;
   margin-top: 48px;
+  border-radius: 4px;
+  border: none;
 }
 
 .business-button:hover,
@@ -226,6 +228,7 @@ button {
 
 .team-title {
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -240,13 +243,15 @@ button {
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   width: calc((100% - 24px * 3) / 4);
-  margin-top: 72px;
   border-radius: 0 0 4px 4px;
+}
+
+.team-item-content {
+  padding: 32px 16px;
 }
 
 .team-image {
   display: block;
-  margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -256,7 +261,6 @@ button {
 
 .team-text {
   text-align: center;
-  margin-bottom: 32px;
 }
 
 .portfolio {
@@ -283,19 +287,22 @@ button {
   background: #fff;
 }
 
+.portfolio-item-content {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+}
+
 .portfolio-image {
   display: block;
-  margin-bottom: 32px;
 }
 
 .portfolio-subtitle {
   margin-bottom: 8px;
-  margin-left: 16px;
 }
 
 .portfolio-text {
-  margin-bottom: 32px;
-  margin-left: 16px;
 }
 
 .footer {
